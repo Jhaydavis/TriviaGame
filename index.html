@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Easy jQuery tivia game created by Jhay Davis">
+        <meta name="author" content="Jhay Davis ">
+        <title>Sample jQuery Trivia Game | Developer: Jhay Davis</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="jumbotron.css" rel="stylesheet">
+    </head>
+    <body style="background-color: #e1ecf6">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Jhay Davis - Full Stack Developer</a>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron text-left" style="background-position: left center;background-size: cover;text-align: right;min-height: 400;background-image: url('assets/images/trivia-game2-header.jpg')">
+            <div class="container text-center">
+                <h1 class="text-left" style="background-position: left top;background-color: rgba(246, 249, 250, 0.38);text-align: left;border-top-left-radius: 20px;border-top-right-radius: 20px"> <i style="text-align: left;margin-left: 12px">Jhay's Movie Trivia</i></h1>
+                <p class="text-left" style="background-color: rgba(248, 251, 252, 0.52);border-left: 0px solid;left: 1px;padding-left: 141px">Test your movie trivia skillls now.&nbsp;</p>
+                <p class="text-left"> <a id="startTimer" class="btn btn-primary btn-lg" href="#" role="button">Start Game »</a></p>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-12 text-left">
+                    <div class="panel panel-primary" id="gameResults">
+</div>
+                    <hr>
+                    <panel id="questionSection">
+                        <h2>Movie Trivia Questions</h2>
+                        <section id="timeLeft">
+                            <h2 class="text-center text-danger">Time Remaining: </h2>
+                        </section>
+                        <p>This actor starred as James Bond in the movie "Live and Let Die".</p>
+                        <form id="q1" action="#" class="text-left">
+                            <input type="radio" name="btn" class="question1" data-name="choice1"> Sean Connery
+                            <br>
+                            <input type="radio" name="btn" class="question1" data-name="choice2"> George Lazenby
+                            <br>
+                            <input type="radio" name="btn" class="question1" data-name="choice3"> Roger Moore
+                            <br>
+                            <input type="radio" name="btn" class="question1" data-name="choice4"> Timothy Dalton
+                            <br>
+                        </form>
+                        <br>
+                        <p>Samuel L. Jackson and John Travolta play hit men in this movie.</p>
+                        <form id="q2">
+                            <input type="radio" name="btn" class="question2" data-name="choice1"> Grease
+                            <br>
+                            <input type="radio" name="btn" class="question2" data-name="choice2"> Snakes on a Plane
+                            <br>
+                            <input type="radio" name="btn" class="question2" data-name="choice3"> Hateful 8
+                            <br>
+                            <input type="radio" name="btn" class="question2" data-name="choice4"> Pulp Fiction
+                            <br>
+                        </form>
+                        <br>
+                        <p>Chris Tucker co-stars in this movie with Ice Cube.</p>
+                        <form id="q3">
+                            <input type="radio" name="btn" class="question3" data-name="choice1"> Money Talks
+                            <br>
+                            <input type="radio" name="btn" class="question3" data-name="choice2"> Friday
+                            <br>
+                            <input type="radio" name="btn" class="question3" data-name="choice3"> Rush Hour
+                            <br>
+                            <input type="radio" name="btn" class="question3" data-name="choice4"> Boyz in the Hood
+                            <br>
+                        </form>
+                        <br>
+                        <p>Marlon Brando and Martin Sheen star in this Vietnam war movie.</p>
+                        <form id="q4">
+                            <input type="radio" name="btn" class="question4" data-name="choice1"> Apocalypse Now
+                            <br>
+                            <input type="radio" name="btn" class="question4" data-name="choice2"> Platoon
+                            <br>
+                            <input type="radio" name="btn" class="question4" data-name="choice3"> Saving Private Ryan
+                            <br>
+                            <input type="radio" name="btn" class="question4" data-name="choice4"> American Sniper
+                            <br>
+                        </form>
+                        <br>
+                        <p>This actor once had a late night talk show and co-starred in Coming to America.</p>
+                        <form id="q5">
+                            <input type="radio" name="btn" class="question5" data-name="choice1"> Jay Leno
+                            <br>
+                            <input type="radio" name="btn" class="question5" data-name="choice2"> Conan O'Brian
+                            <br>
+                            <input type="radio" name="btn" class="question5" data-name="choice3"> Arsenio Hall
+                            <br>
+                            <input type="radio" name="btn" class="question5" data-name="choice4"> Jimmy Fallon
+                            <br>
+                        </form>
+                    </panel>
+                </div>
+            </div>
+            <hr>
+            <footer>
+                <p class="text-right">&copy;2017 Jhay Davis - Full Stack Developer</p>
+            </footer>
+        </div>
+        <!-- /container -->
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/javascript.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+</html>
